@@ -4,4 +4,8 @@ header{display: -webkit-box; display:box; height:50px; background-color:#dbdbdb;
 header h1{-webkit-box-flex:1; box-flex:1; vertical-align:bottom; line-height:50px;padding-left:13px; font-weight:normal;color:rgba(135,136,136,0.7); text-shadow:1px 1px 1px #dbdbdb,0 0 0 #000;}
 header a{display:block; width:30px; margin:13px 13px 0 0;}
 header a span{display:block; height:5px; width:30px; margin: 4px; 0; background-color:white;}
-nav{display:none;}
+nav{}
+nav ul{list-style:none; padding:0px; margin:0px; border-bottom: 1px solid #dbdbdb;}
+nav ul li{text-align:center; padding: 10px; border-bottom:1px solid #ebebeb;}
+nav ul li.last{border-bottom:none;}
+nav ul li a{display:inline-block; width:100%; font-weight:bold;text-decoration:none;color: rgba(135,136,136,0.7);text-shadow:1px 1px 1px #fff,0 0 0 #000;}
