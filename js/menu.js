@@ -12,7 +12,8 @@ define(function (require, exports, module) {
 			this.menu = this.$el.next()
 			this.render()
 		},
-		toogle: function() {
+		toogle: function(e) {
+			e.preventDefault()
 			this.show = ! this.show
 			this.render()
 		},

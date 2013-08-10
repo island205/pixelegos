@@ -12,11 +12,11 @@ nav ul li{text-align:center; padding: 10px; border-bottom:1px solid #ebebeb; hei
 nav ul li.last{border-bottom:none;}
 nav ul li a{display:inline-block; width:100%; font-weight:bold;text-decoration:none;color: rgba(135,136,136,0.7);text-shadow:1px 1px 1px #fff,0 0 0 #000;}
 
-section{height:320px; width:320px;}
-section.color-panel{height:40px;margin-top:20px;}
+section{height:320px; width:320px; margin: 0 auto;}
+section.color-panel{display: none; height:40px;}
 section div{width:38px; height:38px; float:left; border:1px solid #eee;}
 
-footer{display:-webkit-box;height:60px;}
+footer{display:-webkit-box;height:60px; width: 320px; margin: 0 auto; background-color: silver;}
 footer div{-webkit-box-flex:1; padding:10px 60px;}
-footer a{display:block; height:36px; width:36px; border:1px solid silver; background-color:red;}
+footer a{display:block; height:36px; width:36px; border:1px solid white; background-color:black;}
 footer a.eraser{background-color:white;}
