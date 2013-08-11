@@ -1,0 +1,28 @@
+{
+  "name": "pixelegos",
+  "version": "0.0.0",
+  "description": "pixelegos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/island205/pixelegos.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "spm": {
+    "alias": {
+      "$": "zepto/zepto/1.0.0/zepto",
+      "backbone": "gallery/backbone/1.0.0/backbone"
+    }
+  },
+  "devDependencies": {
+    "grunt-cmd-transport": "~0.2.9",
+    "grunt": "~0.4.1",
+    "grunt-cmd-concat": "~0.2.5",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
