@@ -1,0 +1,23 @@
+{
+  "family": "island205",
+  "name": "venus",
+  "version": "1.0.0",
+  "description": "venus in cmd",
+  "homepage": "https://github.com/Bodule/venus-in-cmd",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Bodule/venus-in-cmd.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": ["widget"],
+  "licenses": "MIT",
+  "spm": {
+    "output": ["venus.js"],
+    "alias": {},
+    "devAlias": {},
+    "engines": {}
+  }
+}
