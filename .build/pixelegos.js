@@ -1,4 +1,4 @@
-define("pixelegos", [ "./menu", "gallery/backbone/1.0.0/backbone", "gallery/underscore/1.4.4/underscore", "$", "zepto/zepto/1.0.0/zepto", "./tool", "./canvas" ], function(require, exports, module) {
+define("/dist/pixelegos", [ "./menu", "gallery/backbone/1.0.0/backbone", "gallery/underscore/1.4.4/underscore", "$", "zepto/zepto/1.0.0/zepto", "./tool", "./canvas", "island205/venus/1.0.0/venus" ], function(require, exports, module) {
     var Menu = require("./menu");
     var Tool = require("./tool");
     var Canvas = require("./canvas");

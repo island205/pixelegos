@@ -1,4 +1,4 @@
-define("tool", [ "gallery/backbone/1.0.0/backbone", "gallery/underscore/1.4.4/underscore", "$", "zepto/zepto/1.0.0/zepto" ], function(require, exports, module) {
+define("/dist/tool", [ "gallery/backbone/1.0.0/backbone", "gallery/underscore/1.4.4/underscore", "$", "zepto/zepto/1.0.0/zepto" ], function(require, exports, module) {
     var Backbone = require("gallery/backbone/1.0.0/backbone");
     var $ = require("zepto/zepto/1.0.0/zepto");
     var COLORS = [ "black", "silver", "red", "fuchsia", "green", "yellow", "blue", "aqua" ];

@@ -3,6 +3,7 @@ module.exports = function (grunt) {
         pkg : grunt.file.readJSON("package.json"),
         transport : {
         	options: {
+                idleading: '/dist/',
       			alias: '<%= pkg.spm.alias %>',
       			debug: false
         	},
@@ -16,7 +17,7 @@ module.exports = function (grunt) {
 	    },
 	    concat : {
             options : {
-                include : 'relative'
+                include : 'all'
             },
             app: {
             	files: [

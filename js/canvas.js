@@ -38,7 +38,6 @@ define(function(require, exports, module) {
 					fill: false,
 					styles: {
 						strokeStyle: 'silver'
-
 					}
 				})
 				this.canvas.line(0, width * i + i, this.width, width * i + i, {
@@ -46,7 +45,6 @@ define(function(require, exports, module) {
 					fill: false,
 					styles: {
 						strokeStyle: 'silver'
-
 					}
 				})
 			}
@@ -58,7 +56,6 @@ define(function(require, exports, module) {
 			this.canvas.rectangle(x, y, width, width, {
 				styles: {
 					fillStyle: color
-
 				}
 			})
 		}
