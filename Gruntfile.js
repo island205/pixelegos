@@ -44,16 +44,24 @@ module.exports = function (grunt) {
                 ]
             }
         },
+        normalconcat: {
+            app: {
+                src: ['engine.js', 'dist/pixelegos.js'],
+                dest: 'dist/pixelegos.js'
+            }
+        },
         clean:{
         	app:['.build', 'dist']
         }
     })
 
      grunt.loadNpmTasks('grunt-cmd-transport')
+     grunt.loadNpmTasks('grunt-contrib-concat')
+     grunt.renameTask('concat', 'normalconcat')
      grunt.loadNpmTasks('grunt-cmd-concat')
      grunt.loadNpmTasks('grunt-contrib-uglify')
      grunt.loadNpmTasks('grunt-contrib-clean')
 
-     grunt.registerTask('build', ['clean', 'transport:app', 'concat:app'])
+     grunt.registerTask('build', ['clean', 'transport:app', 'concat:app', 'normalconcat:app'])
      grunt.registerTask('default', ['build'])
 }

@@ -6,7 +6,7 @@ define(function(require, exports, module) {
 	var Canvas = Backbone.View.extend({
 		el: $('.canvas'),
 		color: 'green',
-		size: 9,
+		size: 21,
 		width: 320,
 		events: {
 			'click canvas': 'draw'
